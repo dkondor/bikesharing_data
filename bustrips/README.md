@@ -6,4 +6,4 @@ This folder contains data about bus trips and bus stop locations obtained from L
  - busstops.csv: List of all bus stops in Singapore as of September 2019.
  - busstops_toa_payoh.csv: Subset of the previous, including the bus stops identified to be in Toa Payoh, specifically in the region used in the paper https://arxiv.org/abs/1909.03679.
  - busstops_all_nodes.dat: Mapping of bus stops to closest OSM network nodes. The columns are bus stop ID, OSM node ID, distance in meters. OSM node IDs refer to the network in this repository, under osm/sg_osm_nodes.dat
- 
+ - busstops_matches.dat: Matching bus stop pairs. This file includes pairs of stops that were identified by manual inspection to be paired, being on the opposite side of the road, used by services in the opposite directions. These were merged together in a preprocessing step.
