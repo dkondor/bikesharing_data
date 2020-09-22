@@ -19,3 +19,7 @@ All distances are in meters.
 
 OSM data redistributed under the Open Database License: see [LICENSE.md](https://github.com/dkondor/bikesharing_data/blob/master/osm/LICENSE.md) or http://opendatacommons.org/licenses/odbl/1.0/.
 
+Also included is the code used to generate SRSPMD trips based on this data (Algorithm 1 in the [paper](https://arxiv.org/abs/1909.03679)):
+
+ - generate_trips.sh: basic trips to generate SRSPMD trips. Adjust the variables `$nt`, `$R` and `$s` as needed; it is best to run the last step in a loop to generate many combinations.
+
